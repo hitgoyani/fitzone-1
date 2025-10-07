@@ -1,0 +1,134 @@
+/* Modern FitZone Gym Styles */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f7f7fa;
+  color: #232323;
+  margin: 0;
+  padding: 0;
+}
+.top-bar {
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  padding: 18px 0 8px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fitzone-logo {
+  color: #00b586;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.auth-buttons .btn {
+  margin-left: 8px;
+}
+.navbar {
+  background: #00b586;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 14px;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+.navbar a.active, .navbar a:hover {
+  background: #009e7f;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px 18px;
+}
+.trainer-header {
+  background: #fff;
+  color: #00b586;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  border-radius: 14px;
+  padding: 24px 18px;
+  margin: 24px 0;
+  text-align: center;
+}
+.section-divider {
+  height: 4px;
+  background: linear-gradient(90deg,#00b586 40%,#fff 100%);
+  border-radius: 2px;
+  margin: 12px 0 18px 0;
+  width: 80px;
+}
+.btn {
+  background: #00b586;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+.btn:hover {
+  background: #009e7f;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
+.highlight-card, .trainer-card, .testimonial-card {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+  padding: 24px 28px;
+  margin: 24px 18px;
+  transition: box-shadow 0.2s, transform 0.2s;
+  z-index: 1;
+}
+.highlight-card:hover, .trainer-card:hover, .testimonial-card:hover {
+  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+  transform: translateY(-4px) scale(1.03);
+  z-index: 2;
+}
+input, textarea {
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  padding: 8px;
+  margin-bottom: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border 0.2s;
+}
+input:focus, textarea:focus {
+  border: 1.5px solid #00b586;
+  outline: none;
+}
+.error {
+  color: #d32f2f;
+  font-size: 0.95em;
+  margin-bottom: 6px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 18px;
+}
+th, td {
+  border: 1px solid #e0e0e0;
+  padding: 10px 8px;
+  text-align: center;
+}
+tr:nth-child(even) {
+  background: #f7f7fa;
+}
+tr:hover {
+  background: #e0f7fa;
+}
+footer {
+  background: #fff;
+  color: #232323;
+  border-top: 2px solid #00b586;
+  text-align: center;
+  padding: 18px 0 8px 0;
+  margin-top: 32px;
+}
